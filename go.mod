@@ -1,14 +1,14 @@
 module github.com/3scale/3scale-operator
 
-go 1.22
+go 1.22.5
 
-toolchain go1.22.10
+toolchain go1.22.12
 
 require (
 	github.com/3scale/3scale-porta-go-client v0.12.0
 	github.com/RHsyseng/operator-utils v1.4.9
 	github.com/blang/semver/v4 v4.0.0
-	github.com/getkin/kin-openapi v0.94.0
+	github.com/getkin/kin-openapi v0.134.0
 	github.com/go-logr/logr v1.4.2
 	github.com/go-playground/validator/v10 v10.2.0
 	github.com/go-sql-driver/mysql v1.9.0
@@ -55,13 +55,13 @@ require (
 	github.com/go-logr/zapr v1.3.0 // indirect
 	github.com/go-openapi/analysis v0.19.10 // indirect
 	github.com/go-openapi/errors v0.19.7 // indirect
-	github.com/go-openapi/jsonpointer v0.19.6 // indirect
+	github.com/go-openapi/jsonpointer v0.21.0 // indirect
 	github.com/go-openapi/jsonreference v0.20.2 // indirect
 	github.com/go-openapi/loads v0.19.5 // indirect
 	github.com/go-openapi/runtime v0.19.31 // indirect
 	github.com/go-openapi/spec v0.19.9 // indirect
 	github.com/go-openapi/strfmt v0.19.5 // indirect
-	github.com/go-openapi/swag v0.22.3 // indirect
+	github.com/go-openapi/swag v0.23.0 // indirect
 	github.com/go-openapi/validate v0.19.11 // indirect
 	github.com/go-playground/locales v0.13.0 // indirect
 	github.com/go-playground/universal-translator v0.17.0 // indirect
@@ -91,9 +91,13 @@ require (
 	github.com/moby/spdystream v0.2.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
+	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/mxk/go-flowrate v0.0.0-20140419014527-cca7078d478f // indirect
+	github.com/oasdiff/yaml v0.0.0-20260313112342-a3ea61cb4d4c // indirect
+	github.com/oasdiff/yaml3 v0.0.0-20260224194419-61cd415a242b // indirect
 	github.com/pelletier/go-toml v1.9.3 // indirect
+	github.com/perimeterx/marshmallow v1.1.5 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_model v0.5.0 // indirect
 	github.com/prometheus/common v0.48.0 // indirect
@@ -105,6 +109,7 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stoewer/go-strcase v1.2.0 // indirect
 	github.com/subosito/gotenv v1.2.0 // indirect
+	github.com/woodsbury/decimal128 v1.3.0 // indirect
 	go.mongodb.org/mongo-driver v1.14.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.26.0 // indirect
